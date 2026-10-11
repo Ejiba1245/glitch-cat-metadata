@@ -1,0 +1,64 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      .icon-primary { fill: #00513E; }
+      .icon-accent { fill: #B7F34A; }
+      .icon-highlight { fill: #FFFFFF; }
+    </style>
+  </defs>
+  
+  <!-- Optimized cat icon for token avatars -->
+  <g id="cat-icon">
+    <!-- Head circle -->
+    <circle cx="128" cy="135" r="75" class="icon-primary"/>
+    
+    <!-- Left ear -->
+    <path d="M 82 70 L 65 25 L 100 75 Q 95 75 82 70" class="icon-primary"/>
+    
+    <!-- Right ear -->
+    <path d="M 174 70 L 191 25 L 156 75 Q 161 75 174 70" class="icon-primary"/>
+    
+    <!-- Ear accents -->
+    <path d="M 78 60 L 70 40 L 80 58" class="icon-accent"/>
+    <path d="M 178 60 L 186 40 L 176 58" class="icon-accent"/>
+    
+    <!-- Snout -->
+    <ellipse cx="128" cy="148" rx="30" ry="35" class="icon-highlight"/>
+    
+    <!-- Nose -->
+    <path d="M 128 142 L 125 154 L 131 154 Z" class="icon-primary"/>
+    
+    <!-- Mouth -->
+    <path d="M 128 154 Q 118 164 112 161" stroke="#00513E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 128 154 Q 138 164 144 161" stroke="#00513E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Left eye white -->
+    <ellipse cx="108" cy="118" rx="13" ry="17" class="icon-highlight"/>
+    
+    <!-- Right eye white -->
+    <ellipse cx="148" cy="118" rx="13" ry="17" class="icon-highlight"/>
+    
+    <!-- Left pupil -->
+    <ellipse cx="108" cy="124" rx="8" ry="11" class="icon-primary"/>
+    
+    <!-- Right pupil -->
+    <ellipse cx="148" cy="124" rx="8" ry="11" class="icon-primary"/>
+    
+    <!-- Left shine -->
+    <circle cx="106" cy="115" r="3.5" class="icon-accent"/>
+    
+    <!-- Right shine -->
+    <circle cx="146" cy="115" r="3.5" class="icon-accent"/>
+    
+    <!-- Whiskers -->
+    <line x1="98" y1="133" x2="60" y2="128" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="96" y1="145" x2="58" y2="152" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="158" y1="133" x2="196" y2="128" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="160" y1="145" x2="198" y2="152" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  
+  <!-- Subtle glitch accents -->
+  <g opacity="0.5">
+    <path d="M 82 70 L 65 25 L 100 75" class="icon-accent" opacity="0.5" transform="translate(-2, 1)"/>
+  </g>
+</svg>

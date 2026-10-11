@@ -2,11 +2,27 @@
   "name": "Glitch Cat",
   "symbol": "GLITCH",
   "description": "Glitch Cat is a test token on Solana Devnet. This token is experimental and has no implied monetary value.",
-  "image": "",
+  "image": "https://raw.githubusercontent.com/Ejiba1245/glitch-cat-metadata/main/assets/glitch-cat-icon.svg",
   "external_url": "",
   "attributes": [],
   "properties": {
-    "files": [],
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/Ejiba1245/glitch-cat-metadata/main/assets/glitch-cat-logo.svg",
+        "type": "image/svg+xml",
+        "cdn": false
+      },
+      {
+        "uri": "https://raw.githubusercontent.com/Ejiba1245/glitch-cat-metadata/main/assets/glitch-cat-icon.svg",
+        "type": "image/svg+xml",
+        "cdn": false
+      },
+      {
+        "uri": "https://raw.githubusercontent.com/Ejiba1245/glitch-cat-metadata/main/assets/glitch-cat-preview.svg",
+        "type": "image/svg+xml",
+        "cdn": false
+      }
+    ],
     "category": "image"
   }
 }

@@ -1,0 +1,74 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      .cat-primary { fill: #00513E; }
+      .cat-accent { fill: #B7F34A; }
+      .cat-highlight { fill: #FFFFFF; }
+    </style>
+  </defs>
+  
+  <!-- Main cat head -->
+  <g id="cat-head">
+    <!-- Head base -->
+    <circle cx="128" cy="130" r="72" class="cat-primary"/>
+    
+    <!-- Left ear -->
+    <path d="M 85 75 L 70 35 L 95 70 Q 90 75 85 75" class="cat-primary"/>
+    
+    <!-- Right ear -->
+    <path d="M 171 75 L 186 35 L 161 70 Q 166 75 171 75" class="cat-primary"/>
+    
+    <!-- Ear inner highlights -->
+    <path d="M 82 65 L 75 48 L 82 62" class="cat-accent"/>
+    <path d="M 174 65 L 181 48 L 174 62" class="cat-accent"/>
+    
+    <!-- Snout -->
+    <ellipse cx="128" cy="145" rx="28" ry="32" class="cat-highlight"/>
+    
+    <!-- Nose -->
+    <path d="M 128 140 L 125 150 L 131 150 Z" class="cat-primary"/>
+    
+    <!-- Mouth -->
+    <path d="M 128 150 Q 120 158 115 156" stroke="#00513E" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 128 150 Q 136 158 141 156" stroke="#00513E" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Left eye white -->
+    <ellipse cx="110" cy="115" rx="12" ry="15" class="cat-highlight"/>
+    
+    <!-- Right eye white -->
+    <ellipse cx="146" cy="115" rx="12" ry="15" class="cat-highlight"/>
+    
+    <!-- Left pupil -->
+    <ellipse cx="110" cy="120" rx="7" ry="10" class="cat-primary"/>
+    
+    <!-- Right pupil -->
+    <ellipse cx="146" cy="120" rx="7" ry="10" class="cat-primary"/>
+    
+    <!-- Left eye shine -->
+    <circle cx="108" cy="113" r="3" class="cat-accent"/>
+    
+    <!-- Right eye shine -->
+    <circle cx="144" cy="113" r="3" class="cat-accent"/>
+    
+    <!-- Whiskers left -->
+    <line x1="100" y1="130" x2="70" y2="125" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="98" y1="140" x2="65" y2="145" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    
+    <!-- Whiskers right -->
+    <line x1="156" y1="130" x2="186" y2="125" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="158" y1="140" x2="191" y2="145" stroke="#00513E" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  
+  <!-- Glitch effect elements -->
+  <g id="glitch" opacity="0.8">
+    <!-- Left glitch offset -->
+    <g transform="translate(-3, 2)">
+      <path d="M 85 75 L 70 35 L 95 70" class="cat-accent" opacity="0.6"/>
+    </g>
+    
+    <!-- Right glitch offset -->
+    <g transform="translate(3, -2)">
+      <ellipse cx="146" cy="115" rx="12" ry="15" class="cat-accent" opacity="0.4"/>
+    </g>
+  </g>
+</svg>
